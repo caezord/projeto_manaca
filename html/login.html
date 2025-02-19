@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Logo</div>
         <nav>
             <ul>
                 <li><a href="oleos essenciais.html">OLEOS ESSENCIAIS</a></li>
@@ -19,18 +19,23 @@
                 <li><a href="login.html">LOGIN</a></li>
             </ul>
         </nav>
-        <div class="icones">
-            <a href="carrinho.html"><span class="carrinho">🛒</span></a>
-            <span class="usuario">👤</span>
-        </div>
     </header>
-
-    <h3>Carrinho</h3>
-
-    <div class="area-carrinho">
-        <p>Subtotal: </p>
-        <a href="loja.html">Voltar para a Loja</a>
-        <button>Finalizar</button>
-    </div>
+    
+        <form>
+            <h1><strong>Faça login na sua conta:</strong></h1>
+    
+        <div>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required />
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <br>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+            <input type="submit" value="Enviar" />
+        </form>
 </body>
 </html>
